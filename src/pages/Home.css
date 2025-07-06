@@ -1,0 +1,23 @@
+
+    .sea {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .dolphin {
+        position: absolute;
+        top: 30%;
+        left: 100px;      /* เริ่มนอกจอด้านขวา */
+        width: 240px;
+        cursor: pointer;
+        transition: transform 1s ease;
+        animation: swim 10s linear infinite;
+    }
+
+    .text{
+        float:center; 
+        font-family: Mali; 
+        font-size: 28pt;
+    }
